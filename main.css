@@ -1,0 +1,40 @@
+/* function pixel to em. the return is the formula for pixels to ems*/
+/*@function pxToEm($value, $base) {
+    @return ($value / $base) + em;
+}
+
+h1 {
+    font-size: pxToEm(32, 16);
+}*/
+/* we can declare a variable in scss*/
+/*-------------we set the background color to black through or declared variable black*/
+body {
+  background-color: #000000; }
+
+/*----------------here we have a Map----*/
+/*----------------each keyword get its value from the $colors map and save it as .item*/
+.item-black {
+  background-color: #000000; }
+
+.item-red {
+  background-color: #e84610; }
+
+.item-green {
+  background-color: #bada55; }
+
+/*-----------declare more variable that are actually prperties*/
+/*-----------add properties through variables previously declared*/
+div {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #000000; }
+
+h1 {
+  color: #ffffff; }
+
+/*---------------declare new variable called class that is a container*/
+/*-----------------we are pointing to the  div .container */
+div.container {
+  background-color: orange; }
+
+/*# sourceMappingURL=main.css.map */
